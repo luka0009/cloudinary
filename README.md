@@ -31,7 +31,10 @@
 1. Add `@nuxtjs/cloudinary` dependency to your project
 
 ```bash
-yarn add @nuxtjs/cloudinary 
+# Using yarn
+yarn add @nuxtjs/cloudinary
+
+# Using npm
 npm install @nuxtjs/cloudinary
 ```
 
@@ -67,8 +70,26 @@ And that's it! You can now use Cloudinary in Nuxt ✨
 ## Development
 
 1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+
+2. Make sure to install the dependencies:
+
+```bash
+# npm
+npm install
+
+# yarn
+yarn install
+```
+
+3. Start development server using:
+
+```bash
+# npm
+npm run dev
+
+# yarn
+yarn dev
+```
 
 ## License
 
